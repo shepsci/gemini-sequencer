@@ -1,6 +1,5 @@
 import {
   flagDeleted,
-  addCloudUserToPayload,
   addIDBUserToPayload,
   idbDelSeq,
   idbSaveSeqs,
