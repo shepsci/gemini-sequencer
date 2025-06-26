@@ -19,7 +19,7 @@ import { AuthSuccess } from './AuthSuccess';
 
 export default function App() {
   return (
-    <BrowserRouter basename='/'>
+    <HashRouter>
       <ErrorBoundary>
         <Provider store={store}>
             <AppContent />
