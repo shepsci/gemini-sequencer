@@ -7,6 +7,7 @@ export const ANALYZER_MODES = {
   BARS: 'bars',
   WAVE: 'wave',
   RIPPLE: 'ripple',
+  GEMINI: 'gemini',
 };
 
 export const getDimensions = () => {

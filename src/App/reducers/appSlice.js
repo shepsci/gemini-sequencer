@@ -16,6 +16,13 @@ export const INITIAL_USER = {
   loggedIn: false,
 };
 
+let initialTheme;
+try {
+  initialTheme = getLS('theme');
+} catch (e) {
+  console.error('Error getting theme from local storage', e);
+}
+
 const INITIAL_STATE = {
   authToken: getLS('authToken') || null,
   user: { ...INITIAL_USER },
@@ -26,7 +33,7 @@ const INITIAL_STATE = {
   error: '',
   online: window.navigator.onLine,
   serviceWorkerActive: false,
-  theme: getLS('theme') || THEMES.MARIO,
+  theme: initialTheme || THEMES.MARIO,
   log: { count: 0, message: '' },
   preparingDownload: false,
 };

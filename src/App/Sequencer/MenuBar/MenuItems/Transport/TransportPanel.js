@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo } from 'react';
+import * as Tone from 'tone';
 import { useDispatch } from 'react-redux';
 import { Button } from 'App/shared/Button';
 import {
@@ -37,7 +38,10 @@ const TransportBtns = () => {
 
   const onStop = () => dispatch(stopSequence());
   const onRecord = () => dispatch(startRecord());
-  const onStart = () => dispatch(startSequence());
+  const onStart = () => {
+    Tone.start();
+    dispatch(startSequence());
+  };
   const onPause = () => dispatch(pauseSequence());
   return (
     <>

@@ -74,7 +74,7 @@ export const getUser = () => async (dispatch, getState) => {
     promises: [],
   };
   try {
-    await addCloudUserToPayload(payload);
+    // await addCloudUserToPayload(payload);
     await addIDBUserToPayload(payload);
     await mergeSequences(payload);
   } catch (e) {

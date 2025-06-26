@@ -1,3 +1,4 @@
+import { GeminiAnalyzer } from './GeminiAnalyzer';
 import { areWeTapping } from 'App/reducers/abstractState/abstractEditorState';
 import { startAnalyzer } from 'App/reducers/functions/animations';
 import { ANALYZER_MODES } from 'App/reducers/screenSlice';
@@ -11,6 +12,7 @@ export const Analyzer = () => {
   const grid = useMemo(() => getGrid(16), []);
 
   const memo = useMemo(() => {
+    if (data.analyzerMode === ANALYZER_MODES.GEMINI) return <GeminiAnalyzer />;
     return (
       <div className={classes.analyzer}>
         {grid.map((i) => {
