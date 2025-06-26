@@ -26,7 +26,7 @@ export default function App() {
             <Subscriptions />
         </Provider>
       </ErrorBoundary>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
