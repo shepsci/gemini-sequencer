@@ -1,3 +1,7 @@
+# gemini-sequencer
+
+**Live site:** https://shepsci.github.io/gemini-sequencer/
+
 ```
 ___________ _________ __ .__ .__ 
 \__ ___/__.__.______ ____ / _____/ ____ _____ _____/ |_| |__ |__| ____ ____ 
