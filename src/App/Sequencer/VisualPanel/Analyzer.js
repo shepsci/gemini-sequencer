@@ -29,7 +29,7 @@ export const Analyzer = () => {
         })}
       </div>
     );
-  }, [classes.analyzer, data.scaleX, data.scaleY, grid]);
+  }, [classes.analyzer, data.analyzerMode, data.scaleX, data.scaleY, grid]);
   return memo;
 };
 
