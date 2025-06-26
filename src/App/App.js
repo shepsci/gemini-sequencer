@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Redirect, Route } from 'react-router-dom';
+import { HashRouter, Redirect, Route } from 'react-router-dom';
 import ErrorBoundary from 'App/ErrorBoundary/ErrorBoundary';
 import { Subscriptions } from 'App/Subscriptions';
 import { Provider } from 'react-redux';
@@ -19,7 +19,7 @@ import { AuthSuccess } from './AuthSuccess';
 
 export default function App() {
   return (
-    <BrowserRouter basename='/'>
+    <HashRouter>
       <ErrorBoundary>
         <Provider store={store}>
             <AppContent />
