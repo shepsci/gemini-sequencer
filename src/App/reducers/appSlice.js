@@ -33,7 +33,7 @@ const INITIAL_STATE = {
   error: '',
   online: window.navigator.onLine,
   serviceWorkerActive: false,
-  theme: initialTheme || THEMES.MARIO,
+  theme: initialTheme || THEMES.GEMINI,
   log: { count: 0, message: '' },
   preparingDownload: false,
 };
