@@ -29,3 +29,38 @@
 .kick-pulse.kick {
   transform: scale(1);
 }
+
+.gemini-analyzer-text {
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: 0.7;
+
+  &.top-left {
+    top: 10px;
+    left: 10px;
+  }
+  &.top-right {
+    top: 10px;
+    right: 10px;
+  }
+  &.middle-left {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  &.middle-right {
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  &.bottom-left {
+    bottom: 10px;
+    left: 10px;
+  }
+  &.bottom-right {
+    bottom: 10px;
+    right: 10px;
+  }
+}
