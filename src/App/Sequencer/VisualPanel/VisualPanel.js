@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useShowAndHideClass } from 'hooks/useShowAndHide';
 import { Analyzer } from './Analyzer';
 import { useCurrentPath } from 'hooks/useGoTo';
+import './_visualPanel.scss';
 
 export const VisualPanel = () => {
   return (

@@ -27,7 +27,7 @@ const INITIAL_SPLIT =
 
 const INITIAL_ANALYZER = {
   on: getSS('analyzerOn') ?? INITIAL_SPLIT,
-  mode: getSS('analyzerMode') || ANALYZER_MODES.BARS,
+  mode: getSS('analyzerMode') || ANALYZER_MODES.GEMINI,
 };
 
 const INITIAL_STATE = {

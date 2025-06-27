@@ -2,6 +2,7 @@
 @use 'styles/mixins' as *;
 @use 'styles/colors' as *;
 @use 'styles/responsiveFont' as *;
+@use 'geminiAnalyzer';
 
 .visualPanel {
   @extend %noEventsLayerAbs;

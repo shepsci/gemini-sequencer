@@ -19,14 +19,14 @@ import { AuthSuccess } from './AuthSuccess';
 
 export default function App() {
   return (
-    <HashRouter>
-      <ErrorBoundary>
-        <Provider store={store}>
+    <Provider store={store}>
+      <HashRouter>
+        <ErrorBoundary>
             <AppContent />
             <Subscriptions />
-        </Provider>
-      </ErrorBoundary>
-    </HashRouter>
+        </ErrorBoundary>
+      </HashRouter>
+    </Provider>
   );
 }
 

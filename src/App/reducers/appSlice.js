@@ -8,6 +8,7 @@ export const THEMES = {
   JOKER: 'Joker',
   TMNT: 'TMNT',
   LIGHT: 'Light',
+  GEMINI: 'Gemini',
 };
 
 export const INITIAL_USER = {

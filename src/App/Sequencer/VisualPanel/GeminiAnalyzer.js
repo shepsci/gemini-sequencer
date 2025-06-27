@@ -27,6 +27,7 @@ export const GeminiAnalyzer = () => {
 
   return (
     <div className='gemini-analyzer'>
+      <h1 className='gemini-text'>gemini</h1>
       <div ref={kickPulseRef} className='kick-pulse' />
     </div>
   );
