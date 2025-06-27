@@ -31,6 +31,21 @@ export const SequencerPage = () => {
         </div>
         <div id='popupMenuPortal' style={popupMenuPortalStyle} />
         <MenuBar />
+        <div className='gemini-text-overlay' style={{ top: '5%', left: '5%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '10%', left: '80%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '20%', left: '15%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '25%', left: '70%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '35%', left: '5%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '40%', left: '85%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '50%', left: '25%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '55%', left: '60%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '65%', left: '10%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '70%', left: '75%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '80%', left: '20%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '85%', left: '65%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '90%', left: '30%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '15%', left: '45%' }}>gemini</div>
+        <div className='gemini-text-overlay' style={{ top: '75%', left: '50%' }}>gemini</div>
       </div>
     );
   }, [initialLoad, mainContainerHeight, splitSamplePanel]);
