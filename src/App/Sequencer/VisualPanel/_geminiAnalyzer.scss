@@ -35,9 +35,7 @@
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
-  opacity: 1;
-  z-index: 9999;
-  font-size: 2rem;
+  opacity: 0.7;
 
   &.top-left {
     top: 10px;
@@ -65,11 +63,4 @@
     bottom: 10px;
     right: 10px;
   }
-
-  &.gemini-top-right-1 { top: 10px; right: 10px; }
-  &.gemini-top-right-2 { top: 40px; right: 30px; }
-  &.gemini-top-right-3 { top: 70px; right: 10px; }
-  &.gemini-top-right-4 { top: 10px; right: 60px; }
-  &.gemini-top-right-5 { top: 40px; right: 80px; }
-  &.gemini-top-right-6 { top: 70px; right: 60px; }
 }
